@@ -4,10 +4,11 @@ This is an enhanced fork of UUP dump.
 
 ## Deployment
 
-Something like this (this is a dangerous and rough example):
+Something like this:
 
 ```bash
-sudo git clone --recurse-submodules https://codeberg.org/openuup/web.git /var/www/html
+git clone --recurse-submodules https://codeberg.org/openuup/web.git openuup
+php -S localhost:3000 -t openuup
 ```
 
 Make sure you have PHP and p7zip (or 7-Zip) installed.
