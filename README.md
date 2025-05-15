@@ -13,6 +13,7 @@ php -S localhost:3000 -t openuup
 
 ### Requirements
 
+- Git
 - PHP
 - `curl` extension
 - `max_execution_time` set to `120`
